@@ -1,0 +1,21 @@
+Source: libopenservices-snmp-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>
+Build-Depends: debhelper (>= 11)
+Build-Depends-Indep: libmodule-pluggable-perl,
+ perl
+Standards-Version: 4.1.3
+Vcs-Browser: https://github.com/OpenServicesEU/OpenServices-SNMP
+Vcs-Git: https://github.com/OpenServicesEU/OpenServices-SNMP.git
+Homepage: https://metacpan.org/release/OpenServices-SNMP
+Testsuite: autopkgtest-pkg-perl
+
+Package: libopenservices-snmp-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libmodule-pluggable-perl
+Description: Loader for OpenServices SNMP agent extensions
+ OpenServices::SNMP is the base loader for pluggable SNMPd extensions written in
+ Perl.

@@ -1,0 +1,5 @@
+libopenservices-snmp-perl (0.02-1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Michael Fladischer <fladi@debian.org>  Fri, 2 Mar 2018 11:31:17 +0100
